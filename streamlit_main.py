@@ -31,7 +31,7 @@ with col3:
     st.header("Holy Style3")
     st.image(image3, use_column_width=True)
 with col4:
-    st.header("Holy Style3")
+    st.header("Holy Style4")
     st.image(image4, use_column_width=True)
 
 
