@@ -39,7 +39,7 @@ with col4:
 styleOption = st.selectbox( 'Pick your model style', ('style_1', 'style_2', 'style_3','style_4'))
 st.write('You selected:', styleOption)
 
-upload_img = st.file_uploader("Upload your image here (png or jpg)", type=['png', 'jpg','jpeg'])
+upload_img = st.file_uploader("Upload your image here (png or jpeg or jpg)", type=['png', 'jpg','jpeg'])
 
 if upload_img is not None:
     input_image = Image.open( upload_img )
